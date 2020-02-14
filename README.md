@@ -1,7 +1,7 @@
 # Weather-App
 
-Description: A weather app that shows you the different cities weathers when you search. 
+Description: A weather app that shows you the different cities weathers when you search with different descriptions. 
 
-Link: 
+Link: https://kenanbeast.github.io/Weather-App/.
 
 Image: 
