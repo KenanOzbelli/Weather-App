@@ -4,4 +4,4 @@ Description: A weather app that shows you the different cities weathers when you
 
 Link: https://kenanbeast.github.io/Weather-App/.
 
-Image: ![Alt text](./Assets/image/screenshot.png)
+Image: ![Alt text](Assets/image/screenshot.png)
