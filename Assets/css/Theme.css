@@ -1,0 +1,25 @@
+html body {
+    height: 100vh
+}
+.navbar-brand{
+    height: 10%;
+
+}
+.navigation{
+    background: #A4BABF;
+}
+.columnColor{
+    background:#343E40 ;
+}
+.rowColor{
+    background: #F2A7A7;
+}
+.forecastCard{
+    transition: 200ms ease-in;
+}
+.forecastCard:hover{
+    transform: scale(1.0004);
+    box-shadow: 5px 5px #0D0D0D;
+}
+
+

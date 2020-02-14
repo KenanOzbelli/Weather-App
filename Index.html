@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="StyleSheet" type="text/css" href="Assets/css/Theme.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body class="">
+    <nav class="navbar navigation ">
+        <span class="navbar-brand mb-0 m-auto text-light h1 ">Weather Dashboard</span>
+    </nav>
+    <div class="container-fluid h-100">
+        <div class="row  h-100 rowColor">
+            <div class="col-sm-4 columnColor h-100 text-light">
+                <h3>Search For a City</h3>
+                <form id="cityForm">
+                    <div>
+                        <input type="text" id="cityName" name="city">
+                        <input type="submit" class="btn btn-light" value="Submit">
+                    </div>
+                </form>
+                <div class="list-group mt-3" id="cityHistory">
+                </div>
+
+            </div>
+            <div class="col-sm-6" id="mainContent">
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./Assets/js/script.js"></script>
+</body>
+
+</html>
